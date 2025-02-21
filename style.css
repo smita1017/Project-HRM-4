@@ -271,7 +271,6 @@ td:nth-child(10) { width: 5rem;}
      .part1 {
          margin-top: 1rem;
         width: 100%;
- 
      }
  
      .captionpart1 {    
@@ -378,6 +377,7 @@ margin-left: -1rem;
             align-items: start;
             width: 100%;
             gap: 0.3rem;
+            margin-top: 0%;
         }
     .leftsection{
         display: none;
@@ -396,12 +396,21 @@ margin-left: -1rem;
             justify-content:start;
             align-items: center;
         }
-    .expandleft{
-left: 90%;
-top: 1.8%;
-width: 10%;
-height: 6%;
-    }
+        .expandleft{
+            left: 90%;
+            top: 1%;
+            width: 10%;
+            height: 6%;
+        }
+
+
+
+
+
+        /* .expandleft{
+            display: none;
+       
+            } */
         .searchdiv {
             order: 2;
             width: 100%;
