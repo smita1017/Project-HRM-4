@@ -21,19 +21,16 @@ body{
 .leftsection{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
+    gap: 3rem;
     height: 100%;
-    width: 15%;
+    width: 20%;
     background-color: #0A1329;
-    padding: 2rem;
     color: white;
-
 }
+
 .expandleft{
-    top: 1%;
-    left: 13.5%;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +39,6 @@ body{
     border-radius: 50%;
     background-color: #6C03C0   ;
     z-index: 1;
-
 }
 
 
@@ -84,7 +80,7 @@ body{
 
 /*.......................................right section designing............................................ */
 .rightsection{
-    width: 85%;
+    width: 80%;
 }
 main{
     display: flex;
@@ -265,8 +261,7 @@ td:nth-child(10) { width: 5rem;}
      }
  
      .expandleft {
-         top: 1%;
-         left: 22%;
+      
          width: 4%;
          padding: 1rem;
      }
@@ -322,12 +317,11 @@ td:nth-child(10) { width: 5rem;}
         width: 100%;
 
     }
-
+/* 
     .expandleft {
-        top: 1%;
-        left: 4%;
+      
         width: 4%;
-    }
+    } */
 
     .rightsection {
         width: 100%;
@@ -401,12 +395,10 @@ margin-left: -1rem;
             align-items: center;
         }
         .expandleft{
-            left: 50%;
-            top: 7%;
-            width: 10%;
-            height: 6%;
+      
+            width: 2%;
+            height: 2%;
             z-index: 1;
-            position: absolute;
         }
 
 
